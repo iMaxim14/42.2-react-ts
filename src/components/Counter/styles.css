@@ -1,0 +1,20 @@
+.counter-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    min-width: 400px;
+    padding: 20px;
+    background-color: rgb(188, 191, 190);
+    border-radius: 4px;
+}
+
+.button-wrapper{
+    width: 100px;
+}
+
+.counter-result{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(3, 3, 81);
+}

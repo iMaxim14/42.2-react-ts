@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.feedback-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: Montserrat;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-width: 400px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.feedback-button-wrapper {
+    width: 120px;
+  }
+
+  .result-wrapper {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .like-quantity{
+    color: rgb(8, 117, 35);
+  }
+
+  .dislike-quantity{
+    color: rgb(180, 20, 20);
+  }
+
+  .reset-button-wrapper{
+    flex-basis: 100%;
+  }
