@@ -24,7 +24,7 @@ function LoginForm() {
             inputLabel="Password"
           />
         </div>
-        <Button buttonClass="button-style" />
+        <Button buttonName='click' buttonClass="button-style" />
       </form>
     </div>
   );
