@@ -2,6 +2,7 @@ import Button from "../Button/Button";
 import Input from "../Input/Input";
 import "./styles.css";
 
+
 function LoginForm() {
   return (
     <div className="login-form-wrapper">
@@ -23,7 +24,7 @@ function LoginForm() {
             inputLabel="Password"
           />
         </div>
-        <Button className="button-style" />
+        <Button buttonName='click' buttonClass="button-style" />
       </form>
     </div>
   );

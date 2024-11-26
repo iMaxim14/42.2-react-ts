@@ -9,16 +9,16 @@ function Feedback() {
   const [dislikes, setDislikes] = useState(0);
 
   //прописываем функции для изменений при клике на лайк и дизлайк
-  const onLikeClick = () => {
+  const onLikeClick = ():void => {
     setLikes((prevValue) => prevValue + 1);
   };
 
-  const onDislikeClick = () => {
+  const onDislikeClick = ():void => {
     setDislikes((prevValue) => prevValue + 1);
   };
 
   // прописываем функцию для обнуления лайков и дизлайков
-  const onResetClick = () => {
+  const onResetClick = ():void => {
     setLikes(0);
     setDislikes(0);
   };
@@ -29,14 +29,14 @@ function Feedback() {
       <div className="like-button-wrapper feedback-button-wrapper">
         <Button
           buttonName="Like"
-          className="like-button feedback-button"
+          buttonClass="like-button feedback-button"
           onClick={onLikeClick}
         />
       </div>
       <div className="dislike-button-wrapper feedback-button-wrapper">
         <Button
           buttonName="Dislike"
-          className="dislike-button feedback-button"
+          buttonClass="dislike-button feedback-button"
           onClick={onDislikeClick}
         />
       </div>
@@ -44,7 +44,7 @@ function Feedback() {
       <div className="reset-button-wrapper feedback-button-wrapper">
         <Button
           buttonName="Reset"
-          className="reset-button feedback-button"
+          buttonClass="reset-button feedback-button"
           onClick={onResetClick}
         />
       </div>
